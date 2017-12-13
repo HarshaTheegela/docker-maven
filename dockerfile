@@ -18,5 +18,8 @@ RUN tar xzf apache-maven-3.5.2-bin.tar.gz -C /usr/local/maven/
 RUN cd ~
 RUN ln -s /usr/local/maven/apache-maven-3.5.2  maven
 
+# setting eniv variables 
+ENV MVN_HOME /user/local/maven/apache-maven-3.5.2
+
 # Exposing ports 
 EXPOSE 50000
