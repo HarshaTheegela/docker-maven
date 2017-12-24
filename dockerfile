@@ -8,6 +8,7 @@ RUN yum update -y && \
 	yum install -y wget && \
 	yum install -y openssh-server && \
         yum install -y java-1.8.0-openjdk && \
+	yum install -y which && \
 	yum clean all
 
 # setting eniv variables
