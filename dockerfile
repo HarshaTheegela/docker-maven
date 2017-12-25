@@ -24,3 +24,4 @@ RUN wget http://www-eu.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven
 
 # Exposing ports 
 EXPOSE 50000
+EXPOSE 4243
